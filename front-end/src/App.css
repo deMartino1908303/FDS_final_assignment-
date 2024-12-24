@@ -1,0 +1,65 @@
+/* Global background */
+body {
+  background: linear-gradient(to bottom right, #e0f7fa, #f1f8e9); /* Medical-themed light green and blue */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title Styling */
+.title-text {
+  color: #00796b; /* Medical green */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #004d40;
+}
+
+/* Form container */
+.form-container {
+  background-color: #6fbe88; /* White for cleanliness */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid #80cbc4; /* Medical green */
+}
+
+/* Input field styling */
+.input-field {
+  border-radius: 10px;
+  border: 1px solid #b2dfdb;
+  padding: 10px;
+  background-color: #e0f2f1; /* Light green for input background */
+  transition: all 0.2s ease-in-out;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #00796b; /* Medical green for focus */
+  box-shadow: 0 0 5px rgba(0, 121, 107, 0.5);
+}
+
+/* Button Styling */
+.btn-gradient {
+  background: linear-gradient(to right, #00796b, #004d40); /* Green gradient */
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(to right, #004d40, #00796b);
+  box-shadow: 0px 4px 10px rgba(0, 121, 107, 0.5);
+}
+
+/* Prediction Result */
+.alert-info {
+  background: #e8f5e9; /* Light green for results */
+  color: #1b5e20; /* Dark green for text */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effects */
+.form-select:hover, .form-control:hover {
+  border-color: #00796b;
+  box-shadow: 0 0 5px rgba(0, 121, 107, 0.3);
+}
